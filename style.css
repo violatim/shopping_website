@@ -104,7 +104,6 @@ ul li button:hover{
     display: flex;
     justify-content: space-between;
     background-color: #F4F6F5;
-    border: 1px solid black;
     border-radius: 10px;
     height: 405px;
     overflow: hidden;
@@ -314,7 +313,7 @@ ul li button:hover{
 /* SECTION 5*/
 
 .section5{
-    background-color: rgba(224, 195, 64, 1);
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
     height: 500px;
 }
 .section5>div{
@@ -733,7 +732,7 @@ button:hover{
     }
     .content button{
         position: absolute;
-        right: 250px;
+        right: 150px;
     }
 }
 @media (max-width: 900px){
@@ -805,7 +804,7 @@ button:hover{
         display: none;
     }
    .content button{
-        position: absolute;
+        position: relative;
         right: 150px;
     }
     .support{
